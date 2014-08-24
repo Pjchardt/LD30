@@ -2,12 +2,14 @@
 using System.Collections;
 using System;
 
+//Thank you for playing.  Unfortunately, a number of lines of code were forced to be redacted at the request of David.  I sincerely apologize for
+//the incovenience. -Mgmt
+
 public class Davids : MonoBehaviour 
 {
-	//once web version is built add in redacted to answer numbers
 	public TextMesh [] InputHandles;
 
-	enum SomeCluesForYou {SixNumbers, FindingOasis, ObviousForSome, UnSilenceTheVoicesOfMisdirection, LogicalConclusion}	
+	enum SomeCluesForYou {SixNumbers, FindingOasis, ObviousForSome, Misdirection, LogicalConclusion}	
 	SomeCluesForYou current = SomeCluesForYou.SixNumbers;
 	
 	public GameObject ObjectOfEncouragement;
@@ -32,9 +34,9 @@ public class Davids : MonoBehaviour
 	{
 		if (Input.inputString.Length > 0)
 		{
-			string temp = Input.inputString; 
+			string yourImpact = Input.inputString; 
 			
-			if (temp.Contains("\b"))
+			if (yourImpact.Contains("\b"))
 			{
 				if (InputHandles[(int)current].text.Length > 0)
 				{
@@ -42,7 +44,7 @@ public class Davids : MonoBehaviour
 					InputHandles[(int)current].text = InputHandles[(int)current].text.Substring(0, InputHandles[(int)current].text.Length - 1);
 				}
 			}
-			else if (temp.Contains("\r"))
+			else if (yourImpact.Contains("\r"))
 			{
 				if (!CheckInput(InputHandles[(int)current].text))
 				{
@@ -68,49 +70,19 @@ public class Davids : MonoBehaviour
 		switch (current)
 		{
 			case SomeCluesForYou.SixNumbers:
-				if (input == "018432")
-				{
-					ObjectOfEncouragement.audio.Play();
-					current = SomeCluesForYou.FindingOasis;
-					NewState();
-				    niceWork = true;
-				}
+			//REDACTED
 			break;
 			case SomeCluesForYou.FindingOasis:
-			if (input == "1818")
-			{
-				ObjectOfEncouragement.audio.Play();
-				current = SomeCluesForYou.ObviousForSome;
-				NewState();
-				niceWork = true;
-			}
+			//REDACTED
 			break;
 			case SomeCluesForYou.ObviousForSome:
-			if (input == "4147")
-			{
-				ObjectOfEncouragement.audio.Play();
-				current = SomeCluesForYou.UnSilenceTheVoicesOfMisdirection;
-				NewState();
-				niceWork = true;
-			}
+			//REDACTED
 			break;
-			case SomeCluesForYou.UnSilenceTheVoicesOfMisdirection:
-			if (input == "5")
-			{
-				ObjectOfEncouragement.audio.Play();
-				current = SomeCluesForYou.LogicalConclusion;
-				NewState();
-				niceWork = true;
-			}
+			case SomeCluesForYou.Misdirection:
+			//REDACTED
 			break;
 			case SomeCluesForYou.LogicalConclusion:
-			if (input == "30")
-			{
-				ObjectOfEncouragement.audio.Play();
-				TheOtherName.SetActive(true);
-				this.gameObject.SetActive(false);
-				niceWork = true;
-			}
+			//REDACTED
 			break;
 		}
 		
@@ -119,6 +91,6 @@ public class Davids : MonoBehaviour
 	
 	void NewState() //51st to be exact :)
 	{	
-		InputHandles[(int)current].gameObject.transform.parent.gameObject.SetActive(true);
+		//REDACTED
 	}
 }

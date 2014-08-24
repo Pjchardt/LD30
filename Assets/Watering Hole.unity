@@ -4799,7 +4799,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1041390513
 Transform:
   m_ObjectHideFlags: 0
@@ -7997,7 +7997,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1628709177}
-  m_Text: Or open the readme.md file in the repo
+  m_Text: open the readme.md file in the repo
   m_OffsetZ: 0
   m_CharacterSize: .319999993
   m_LineSpacing: 1
