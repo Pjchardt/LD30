@@ -1725,6 +1725,7 @@ Transform:
   - {fileID: 1865251031}
   - {fileID: 1633931842}
   - {fileID: 754765357}
+  - {fileID: 1628709178}
   - {fileID: 486917375}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2159,7 +2160,7 @@ GameObject:
   - 23: {fileID: 486917377}
   - 102: {fileID: 486917376}
   m_Layer: 11
-  m_Name: Info
+  m_Name: Line 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2176,7 +2177,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 418761806}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!102 &486917376
 TextMesh:
   serializedVersion: 3
@@ -2540,7 +2541,7 @@ GameObject:
   - 23: {fileID: 535046578}
   - 102: {fileID: 535046577}
   m_Layer: 11
-  m_Name: Info
+  m_Name: Line 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3596,7 +3597,7 @@ GameObject:
   - 23: {fileID: 754765359}
   - 102: {fileID: 754765358}
   m_Layer: 11
-  m_Name: Info
+  m_Name: Web Address
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3621,14 +3622,14 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 754765356}
-  m_Text: http:www.supersoul.co
+  m_Text: https://github.com/Pjchardt/LD30
   m_OffsetZ: 0
   m_CharacterSize: .319999993
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 36
+  m_FontSize: 28
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 12800000, guid: bb53c36b0b7fd214a8285eea9c133268, type: 3}
@@ -7960,6 +7961,76 @@ Renderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!1 &1628709177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1628709178}
+  - 23: {fileID: 1628709180}
+  - 102: {fileID: 1628709179}
+  m_Layer: 11
+  m_Name: Line 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1628709178
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1628709177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -5, z: 20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 418761806}
+  m_RootOrder: 5
+--- !u!102 &1628709179
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1628709177}
+  m_Text: Or open the readme.md file in the repo
+  m_OffsetZ: 0
+  m_CharacterSize: .319999993
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 26
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: bb53c36b0b7fd214a8285eea9c133268, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4292859357
+--- !u!23 &1628709180
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1628709177}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: bb53c36b0b7fd214a8285eea9c133268, type: 3}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1633931841
 GameObject:
   m_ObjectHideFlags: 0
@@ -7971,7 +8042,7 @@ GameObject:
   - 23: {fileID: 1633931844}
   - 102: {fileID: 1633931843}
   m_Layer: 11
-  m_Name: Info
+  m_Name: Line 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9055,7 +9126,7 @@ GameObject:
   - 23: {fileID: 1865251030}
   - 102: {fileID: 1865251029}
   m_Layer: 11
-  m_Name: Info
+  m_Name: Line 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
