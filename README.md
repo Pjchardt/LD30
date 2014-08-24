@@ -14,3 +14,5 @@ In the repo are all of the cource files as well as the builds for WIndows, Mac a
 Sincerely,
 
 @pjchardt
+
+Capture It 2.ttf - http://www.fontsquirrel.com/fonts/Capture-it - By CPR.SPARHELT
